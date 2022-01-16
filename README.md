@@ -36,10 +36,10 @@ export class InventoryItem {
 
 Internally, there are 3 folders.
 
-The `data` folder contains a JSON file where all the inventory is stored.
-The `dist` folder contains the compiled javascript.
-The `src` folder contains the source code in typescript.
-The `src/controllers` folder contains the inventory class.
+- The `data` folder contains a JSON file where all the inventory is stored.
+- The `dist` folder contains the compiled javascript.
+- The `src` folder contains the source code in typescript.
+- The `src/controllers` folder contains the inventory class.
 
 ## How to run it?
 
