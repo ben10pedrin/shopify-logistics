@@ -13,6 +13,10 @@ const ask = (output: string): Promise<string> =>
 
 const inventory = new Inventory();
 
+const clearScreen = () => {
+  for (let i = 0; i < 100; i++) console.log("\n");
+};
+
 const addItemMenu = async () => {
   const name = await ask("Name: ");
   const count = await ask("Count: ");
@@ -101,7 +105,7 @@ const main = async () => {
 [7] Exit
 `
     );
-    console.clear();
+    clearScreen();
     switch (answer) {
       case "1":
         await addItemMenu();
@@ -129,7 +133,7 @@ const main = async () => {
         break;
     }
     await ask("Press any key to continue...");
-    console.clear();
+    clearScreen();
   }
 };
 
