@@ -48,6 +48,7 @@ Make sure you have `node` and `npm` installed
 Just run
 
 ```bash
+npm install
 npm start
 ```
 
