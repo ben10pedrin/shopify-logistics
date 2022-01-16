@@ -7,7 +7,8 @@ Node + Typescript + UUID package
 ## Features
 
 The client has a menu where you can select from the following options:
-`
+
+```
 ======Welcome=====
 
 [1] Add an item
@@ -17,7 +18,7 @@ The client has a menu where you can select from the following options:
 [5] Filter items by tag
 [6] Filter items by stock
 [7] Exit
-`
+```
 
 The InventoryItem structure is the following:
 
