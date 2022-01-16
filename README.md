@@ -34,7 +34,7 @@ export class InventoryItem {
 
 ## How does it works?
 
-Internally, there are 3 folders.
+Internally, there are 4 folders.
 
 - The `data` folder contains a JSON file where all the inventory is stored.
 - The `dist` folder contains the compiled javascript.
@@ -58,6 +58,6 @@ npm install
 npm run dev
 ```
 
-Note: make sure you are carefull with typos, string validation and error handling was omitted for simplicity sake
+Note: make sure you are carefull with typos, string validation and error handling were omitted for simplicity sake
 
 > Tested on node v17.3.0 and npm 8.3.0
