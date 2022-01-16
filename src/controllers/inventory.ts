@@ -17,14 +17,10 @@ export class InventoryItem {
     this.count = count;
     this.price = price;
   }
-
-  isInStock(): boolean {
-    return this.count > 0;
-  }
 }
 
 export class Inventory {
-  path = "./src/controllers/inventory_data.json";
+  path = "./data/inventory_data.json";
   items: InventoryItem[] = [];
 
   constructor() {
@@ -61,11 +57,22 @@ export class Inventory {
     return result[0];
   }
 
-  editElementWithId(id: string, newItem: InventoryItem): void {
+  replaceElementById(id: string, newItem: InventoryItem): void {
     this.items = this.items.map((item) => {
-      if (item.id === id) return newItem;
+      if (item.id === id) {
+        newItem.id = id;
+        return newItem;
+      }
       return item;
     });
     this.write();
+  }
+
+  getElementsWithTag(tag: InventoryTags): InventoryItem[] {
+    return this.items.filter((item) => item.tag === tag);
+  }
+
+  getElementsInStock(): InventoryItem[] {
+    return this.items.filter((item) => item.count > 0);
   }
 }

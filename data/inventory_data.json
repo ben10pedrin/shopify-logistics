@@ -1,0 +1,72 @@
+[
+  {
+    "id": "73bb817a-2967-4df2-9e30-a7b98d2d540c",
+    "name": "macbookpro",
+    "tag": "tech",
+    "count": 69,
+    "price": 10000
+  },
+  {
+    "id": "24c8285a-75b4-4631-915e-c51433660591",
+    "name": "apple",
+    "tag": "food",
+    "count": 100,
+    "price": 700
+  },
+  {
+    "id": "d089d450-b54c-42f7-adc7-922cc2f1fa81",
+    "name": "pear",
+    "tag": "food",
+    "count": 45,
+    "price": 800
+  },
+  {
+    "id": "0da39aee-5545-42c9-81b9-d5d61b387865",
+    "name": "orange",
+    "tag": "food",
+    "count": 67,
+    "price": 9
+  },
+  {
+    "id": "80be75cb-cb2e-4ea3-a810-adeeb449c66b",
+    "name": "tomato3",
+    "tag": "food",
+    "count": 0,
+    "price": 0
+  },
+  {
+    "id": "d5b07152-6a12-4a00-a0ac-2d4b3b74250e",
+    "name": "iphone",
+    "tag": "tech",
+    "count": 0,
+    "price": 999
+  },
+  {
+    "id": "9be3066d-ab4b-4a0a-8dc5-6d281f05a0bb",
+    "name": "mechanical keyboard",
+    "tag": "tech",
+    "count": 2,
+    "price": 899
+  },
+  {
+    "id": "1076ce89-c799-4f45-ae1d-b5f5dd088d64",
+    "name": "pants",
+    "tag": "clothes",
+    "count": 4,
+    "price": 99
+  },
+  {
+    "id": "de6096f8-3dca-4e40-810b-fa834605cfe5",
+    "name": "skirt",
+    "tag": "clothes",
+    "count": 0,
+    "price": 8
+  },
+  {
+    "id": "94d97aa6-d71f-4422-80fb-c7f28f586433",
+    "name": "cool t-shirt",
+    "tag": "clothes",
+    "count": 7,
+    "price": 20
+  }
+]
